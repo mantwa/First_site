@@ -14,7 +14,7 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
   var myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'masego and coding, ' + myName;
+  myHeading.textContent = 'Masego Shyleen Makgasane, ' + myName;
 }
 
 
@@ -22,7 +22,7 @@ function setUserName() {
     setUserName();
   } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'masego and coding, ' + storedName;
+    myHeading.textContent = 'Masego Shyleen Makgasane, ' + storedName;
   }
 
   myButton.onclick = function() {

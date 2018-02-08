@@ -1,5 +1,5 @@
-body {
-  background-color:  	#ffb6b9;
+html {
+  background-color: orange;
 }
 
 h1{
@@ -28,7 +28,7 @@ h2{
 body {
   width   : 600px;
   margin  : 0 auto;
-  background color:#ffb6b9;
+  background-color: pink;
   padding : 0 20px 20px 20px;
   border  : 5px solid black;
 }
